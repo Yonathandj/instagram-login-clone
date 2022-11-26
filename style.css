@@ -65,3 +65,27 @@ button {
   height: 0.015em;
   background-color: rgb(110, 110, 110, 0.5);
 }
+
+.login-facebook {
+  display: flex;
+  margin-top: 1.5em;
+  align-items: center;
+  justify-content: center;
+}
+.facebook-logo {
+  height: 15px;
+}
+.link-login-facebook {
+  font-size: 0.8rem;
+  margin-left: 0.5em;
+  text-decoration: none;
+}
+.forgot-password {
+  margin-top: 1em;
+  text-align: center;
+}
+.link-forgot-password {
+  font-size: 0.7rem;
+  margin-left: 0.5em;
+  text-decoration: none;
+}
