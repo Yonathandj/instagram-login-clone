@@ -80,6 +80,7 @@ button {
   margin-left: 0.5em;
   text-decoration: none;
 }
+
 .forgot-password {
   margin-top: 1em;
   text-align: center;
@@ -88,4 +89,32 @@ button {
   font-size: 0.7rem;
   margin-left: 0.5em;
   text-decoration: none;
+}
+
+.account-signup {
+  margin-top: 2em;
+  text-align: center;
+}
+.account-signup p,
+.link-account-signup {
+  font-size: 0.8rem;
+}
+.link-account-signup {
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(10, 158, 255);
+}
+.get-app {
+  margin-top: 3em;
+}
+
+.gplay-microsoft {
+  gap: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo-download-app {
+  height: 40px;
+  margin-top: 1.5em;
 }
