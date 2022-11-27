@@ -11,13 +11,29 @@ body {
   background-color: rgb(250, 250, 250);
 }
 
+.border-top {
+  width: 350px;
+  padding: 1.2em;
+  max-width: 80%;
+  margin: 0.8em auto;
+  background-color: white;
+  border: 0.5px solid rgb(224, 224, 224);
+}
+.border-bottom {
+  width: 350px;
+  padding: 0.8em;
+  max-width: 40%;
+  margin: 0.8em auto;
+  background-color: white;
+  border: 0.5px solid rgb(224, 224, 224);
+}
+
 header {
-  width: 100%;
   text-align: center;
 }
 .ig-word {
   height: 50px;
-  margin-top: 3em;
+  margin-top: 2em;
 }
 
 main {
@@ -34,21 +50,22 @@ label {
   position: absolute;
 }
 input {
-  width: 76%;
-  padding: 0.8em;
+  width: 86%;
+  padding: 0.85em;
   font-size: 12px;
   margin-top: 0.6em;
   border-radius: 2px;
   color: rgb(224, 224, 224);
-  background-color: rgb(250, 250, 250);
+  background-color: rgb(248, 248, 248);
   border: 0.6px solid rgb(224, 224, 224);
 }
 .login-button {
-  width: 76%;
+  width: 86%;
   color: white;
   padding: 0.4em;
   font-size: 14px;
   margin-top: 1em;
+  cursor: pointer;
   font-weight: bold;
   border-radius: 5px;
   background-color: rgb(0, 150, 250);
@@ -57,16 +74,15 @@ input {
 
 .or-section {
   display: flex;
-  font-weight: bold;
   margin-top: 1.5em;
   align-items: center;
+  color: rgb(185, 185, 185);
   justify-content: space-evenly;
-  color: rgba(110, 110, 110, 0.5);
 }
 .stripe {
-  width: 23%;
+  width: 30%;
   height: 0.015em;
-  background-color: rgb(110, 110, 110, 0.5);
+  background-color: rgb(155, 155, 155);
 }
 
 .login-facebook {
@@ -79,11 +95,11 @@ input {
   height: 15px;
 }
 .link-login-facebook {
-  color: #385185;
   font-weight: 600;
   font-size: 0.9rem;
   margin-left: 0.5em;
   text-decoration: none;
+  color: rgba(54, 34, 134, 0.8);
 }
 
 .forgot-password {
@@ -91,26 +107,26 @@ input {
   text-align: center;
 }
 .link-forgot-password {
-  color: #385185;
   font-size: 0.75rem;
   text-decoration: none;
+  color: rgba(54, 34, 134, 0.8);
 }
 
 .account-signup {
-  margin-top: 2.5em;
+  margin-top: 0.2em;
   text-align: center;
 }
 .account-signup p,
 .link-account-signup {
-  font-size: 0.8rem;
+  font-size: 0.85rem;
 }
 .link-account-signup {
-  color: #0095f6;
   font-weight: bold;
   text-decoration: none;
+  color: rgb(0, 150, 250);
 }
 .get-app {
-  margin-top: 3.5em;
+  margin-top: 2em;
 }
 
 .gplay-microsoft {
@@ -121,5 +137,58 @@ input {
 }
 .logo-download-app {
   height: 40px;
+  cursor: pointer;
+  margin-top: 1.2em;
+}
+
+footer {
+  display: flex;
+  margin-top: 5em;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.footer-link {
+  width: 100%;
+  text-align: center;
+}
+.footer-link a {
+  font-size: 0.75rem;
+  margin-left: 0.75em;
+  text-decoration: none;
+  color: rgb(155, 155, 155);
+}
+.footer-link a:hover {
+  text-decoration: underline;
+}
+
+.language-copyright {
+  gap: 10px;
+  display: flex;
   margin-top: 1.5em;
+  margin-bottom: 4em;
+  align-items: center;
+  justify-content: center;
+  color: rgb(155, 155, 155);
+}
+.language-container {
+  width: 40%;
+  text-align: center;
+}
+#language {
+  width: 60%;
+  border: none;
+  color: rgb(155, 155, 155);
+}
+#copyright {
+  font-size: 0.75rem;
+}
+
+@media (max-width: 450px) {
+  .border-top,
+  .border-bottom {
+    border: none;
+    max-width: 100%;
+    background-color: transparent;
+  }
 }

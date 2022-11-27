@@ -10,76 +10,113 @@
   </head>
 
   <body>
-    <header>
-      <img src="assets/ig-word.png" alt="Instagram" class="ig-word" />
-    </header>
+    <div class="border-top">
+      <header>
+        <img src="assets/ig-word.png" alt="Instagram" class="ig-word" />
+      </header>
 
-    <main>
-      <form action="">
-        <label for="identity">Identity</label>
-        <input
-          type="text"
-          name="identity"
-          id="identity"
-          placeholder="Phone number, username, or email"
+      <main>
+        <form action="">
+          <label for="identity">Identity</label>
+          <input
+            type="text"
+            name="identity"
+            id="identity"
+            placeholder="Phone number, username, or email"
+          />
+          <label for="password">Password</label>
+          <input
+            type="text"
+            name="password"
+            id="password"
+            placeholder="Password"
+          />
+          <button class="login-button">Log in</button>
+        </form>
+
+        <div class="or-section">
+          <div class="stripe"></div>
+          <h5>OR</h5>
+          <div class="stripe"></div>
+        </div>
+
+        <section class="login-facebook">
+          <img
+            src="assets/facebook-logo.png"
+            alt="Facebook logo"
+            class="facebook-logo"
+          />
+          <a
+            href="https://m.facebook.com/login/?locale=id_ID&refsrc=deprecated"
+            class="link-login-facebook"
+            >Log in with facebook</a
+          >
+        </section>
+
+        <section class="forgot-password">
+          <a
+            href="https://www.instagram.com/accounts/password/reset/"
+            class="link-forgot-password"
+            >Forgot password?</a
+          >
+        </section>
+      </div>
+
+      <section class="account-signup">
+        <div class="border-bottom">
+          <p>
+          Don't have an account?
+          <a
+            href="https://www.instagram.com/accounts/emailsignup/"
+            class="link-account-signup"
+            >Sign up</a
+          >
+        </p>
+        </div>
+        <p class="get-app">Get the app.</p>
+      </section>
+
+      <section class="gplay-microsoft">
+        <img
+          src="assets/gplay.png"
+          alt="Google play"
+          class="logo-download-app"
         />
-        <label for="password">Password</label>
-        <input
-          type="text"
-          name="password"
-          id="password"
-          placeholder="Password"
+        <img
+          src="assets/microsoft.png"
+          alt="Microsoft"
+          class="logo-download-app"
         />
-        <button class="login-button">Log in</button>
-      </form>
+      </section>
     </main>
 
-    <div class="or-section">
-      <div class="stripe"></div>
-      <p>OR</p>
-      <div class="stripe"></div>
-    </div>
-
-    <section class="login-facebook">
-      <img
-        src="assets/facebook-logo.png"
-        alt="Facebook logo"
-        class="facebook-logo"
-      />
-      <a
-        href="https://m.facebook.com/login/?locale=id_ID&refsrc=deprecated"
-        class="link-login-facebook"
-        >Log in with facebook</a
-      >
-    </section>
-
-    <section class="forgot-password">
-      <a
-        href="https://www.instagram.com/accounts/password/reset/"
-        class="link-forgot-password"
-        >Forgot password?</a
-      >
-    </section>
-
-    <section class="account-signup">
-      <p>
-        Don't have an account?
-        <a
-          href="https://www.instagram.com/accounts/emailsignup/"
-          class="link-account-signup"
-          >Sign up</a
-        >
-      </p>
-      <p class="get-app">Get the app.</p>
-    </section>
-
-    <section class="gplay-microsoft">
-      <img src="assets/gplay.png" alt="Google play" class="logo-download-app" />
-      <img
-        src="assets/microsoft.png"
-        alt="Microsoft"
-        class="logo-download-app"
-      />
-    </section>
+    <footer>
+      <section class="footer-link">
+        <a href="">Meta</a>
+        <a href="">About</a>
+        <a href="">Blog</a>
+        <a href="">Jobs</a>
+        <a href="">Help</a>
+        <a href="">API</a>
+        <a href="">Terms</a>
+        <a href="">Top Accounts</a>
+        <a href="">Hashtags</a>
+        <a href="">Locations</a>
+        <a href="">Instagram Life</a>
+        <a href="">Contact Uploading & Non-Users</a>
+      </section>
+      <section class="language-copyright">
+        <div class="language-container">
+          <label for="language">English</label>
+          <select id="language">
+            <option value="volvo">English</option>
+            <option value="saab">Bahasa Indonesia</option>
+            <option value="opel">Italiano</option>
+            <option value="audi">Melayu</option>
+          </select>
+        </div>
+        <p id="copyright">&copy; 2022 Instagram form Meta</p>
+      </section>
+    </footer>
   </body>
 </html>
